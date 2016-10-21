@@ -11,4 +11,5 @@ int main(){
 void sayHello() {
     int int1=10;
     printf("Hello World!");
+    @@@int#
 }

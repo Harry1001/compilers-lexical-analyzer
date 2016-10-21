@@ -55,4 +55,9 @@
 < STRING, Hello World! >
 < OPERATOR, ) >
 < OPERATOR, ; >
+< ERROR, @ >
+< ERROR, @ >
+< ERROR, @ >
+< KEYWORD, int >
+< ERROR, # >
 < OPERATOR, } >
