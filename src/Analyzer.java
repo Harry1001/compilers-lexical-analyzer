@@ -380,7 +380,7 @@ public class Analyzer {
         else if (state == 24 || state == 100) {
             code = CodeEnum.DIGIT;
         }
-        else if (state >=25 && state <=54) {
+        else if ((state >=25 && state <=54) || state == 57) {
             code = CodeEnum.OPERATOR;
         }
         else if (state == 55) {
