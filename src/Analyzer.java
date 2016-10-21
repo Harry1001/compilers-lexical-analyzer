@@ -398,7 +398,7 @@ public class Analyzer {
     }
 
     private boolean isOtherOperator(char c) {
-        if ((c==';') || (c=='(') || (c==')') || (c=='[') || (c==']') || (c=='{') || (c=='}') || (c=='%')){
+        if ((c==';') || (c=='(') || (c==')') || (c=='[') || (c==']') || (c=='{') || (c=='}') || (c=='%') || (c==':')){
             return true;
         }
         else {
