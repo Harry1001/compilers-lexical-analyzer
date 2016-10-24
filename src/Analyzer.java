@@ -346,6 +346,8 @@ public class Analyzer {
                     }
                     break;
 
+                    default: break;
+
                 }
             }
         }
